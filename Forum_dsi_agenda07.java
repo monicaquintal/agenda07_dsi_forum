@@ -6,14 +6,14 @@ public class Forum_dsi_agenda07 {
     
     public static void main(String[] args) {
         // declaração das variáveis
-        int idade = 0;
+        int idade;
         int total = 0;
         String nome;
         
         // utilizando Scanner
         Scanner ler = new Scanner (System.in);
         
-        for (int i = 0; i <= 10; i++) { //laço de repetição para as 08 pessoas
+        for (int i = 0; i <= 10; i++) { //laço de repetição para as 10 pessoas
             
             System.out.println("Insira o nome: "); 
             nome = ler.next(); // usuário irá digitar o nome e este comando irá ler e armazenar na variável
@@ -31,7 +31,7 @@ public class Forum_dsi_agenda07 {
             
         }// Fim para
        
-          System.out.println("O total de maiores de idade é de :" + total);
+          System.out.println("O número total de maiores de 18 anos é de :" + total);
         
     }
     
