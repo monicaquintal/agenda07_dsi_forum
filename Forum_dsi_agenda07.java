@@ -21,7 +21,7 @@ public class Forum_dsi_agenda07 {
             System.out.println("Insira a idade: ");
             idade = ler.nextInt(); // usuário irá digitar a idade e este comando irá ler e armazenar na variável
             
-            if (idade > 18) {
+            if (idade >= 18) {
                 System.out.println("MAIOR DE IDADE!");
                 total += 1;
             
